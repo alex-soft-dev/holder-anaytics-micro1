@@ -1,0 +1,24 @@
+.HeaderToggleButton,
+.HeaderToggleButton:hover,
+.HeaderToggleButton:active,
+.HeaderToggleButton:focus-visible {
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.MainButton.Connect-Wallet {
+    background: linear-gradient(92.11deg, #CF3791 -9.17%, #AC32CF 112.61%);
+    border: none !important;
+    font-size: 14px;
+    font-weight: bold;
+    height: 32px;
+    width: 160px;
+}
+
+.Header {
+    border-bottom: 1px solid #ffffff40;
+    height: 76px;
+    align-items: center;
+}

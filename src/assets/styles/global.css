@@ -1,0 +1,1286 @@
+.MainButton {
+    background: linear-gradient(92.11deg, #CF3791 -9.17%, #AC32CF 112.61%);
+    border: none !important;
+    font-size: 14px;
+    font-weight: bold;
+    width: 50%;
+    height: 32px;
+}
+
+.copyrightText div {
+    color: #2FCCF2;
+}
+
+.btn-check:checked+.btn {
+    background: none !important;
+}
+
+
+.w1 {
+    stroke: none;
+    /* fill: #b3696c; */
+    opacity: 100%;
+    animation: move1 10s linear infinite;
+  }
+  .w2 {
+    stroke: none;
+    /* fill: #b3696c; */
+    opacity: 20%;
+    transform: translate3d(0, 0, 0);
+    animation: move2 4.5s linear infinite;
+  }
+  .w3 {
+    stroke: none;
+    /* fill: #cf2127; */
+    opacity: 30%;
+    transform: translate3d(0, 0, 0);
+    animation: move3 2s linear infinite;
+  }
+  @keyframes move1 {
+    0% {
+      transform: translateX(-500px) scaleX(2);
+    }
+    25% {
+      transform: translateX(-250px) scaleX(1.5);
+    }
+    50% {
+      transform: translateX(-200px) scaleX(1.5);
+    }
+    75% {
+      transform: translateX(-250px) scaleX(1.5);
+    }
+    100% {
+      transform: translateX(-500px) scaleX(2);
+    }
+  }
+  @keyframes move2 {
+    0% {
+      transform: translateX(-600px) scaleX(3);
+    }
+    50% {
+      transform: translateX(-100) scaleX(2.5);
+    }
+    100% {
+      transform: translateX(0) scaleX(3);
+    }
+  }
+  @keyframes move3 {
+    0% {
+      transform: translateX(-800px) scaleX(2);
+    }
+    25% {
+      transform: translateX(-400px) scaleX(1.5);
+    }
+    50% {
+      transform: translateX(-300px) scaleX(1.5);
+    }
+    75% {
+      transform: translateX(-400px) scaleX(1.5);
+    }
+    100% {
+      transform: translateX(-800px) scaleX(2);
+    }
+  }
+
+  .WaveAnimationCard {
+    width: 96px;
+    min-height: 96px;
+    text-align: center;
+    position: relative;
+    border: 1px solid;
+    background: none !important;
+  }
+
+  .WaveAnimationCard.card .card-body {
+    padding: 0.5rem !important;
+    font-weight: bold;
+    position: absolute;
+  }
+
+  .WaveAnimationCard .WaveAnimationCard-top-title {
+    font-size: 8px;
+    font-weight: 300
+  }
+
+  .WaveAnimationCard .card-title {
+    font-size: 24px;
+    font-weight: bold
+  }
+
+  .WaveAnimationCard .card-subtitle {
+    font-size: 14px;
+    font-weight: bold;    
+  }
+
+  .WaveAnimationCard .WaveAnimationCard-bottom-text {
+    font-size: 8px;
+    font-weight: bold
+  }
+
+  .BackCard {
+    background: #0A0A0A !important;
+  }
+
+  .SectionTitle {
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(255 255 255 / 50%);
+  }
+
+  .ValueCard {
+    height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    border-radius: 5px;
+    width: 125px;
+    padding: 0.7rem;
+  }
+
+  .ValueCard-title {
+    font-size: 8px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .ValueCard-value {
+    font-size: 8px;
+    font-weight: bold;
+  }
+
+  .TagTitle {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .TagTitle span {
+    color: #2FCCF2;
+  }
+
+  .PercetGradient {
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+  }
+
+  .PercetGradient .PercetGradient-border {
+    height: 1px;
+    background-image: linear-gradient(90deg, #10BE77, #B8A81F 50%, #EE4E7A 100%);
+    width: 60%;
+  }
+
+  .apexcharts-yaxis-title text {
+    font-size: 8px;
+    fill: white !important;
+  }
+
+  .GradientCard {
+    height: 90px;
+    width: 237px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: 1.2rem;
+}
+
+.GradientCard .GradientCard-title {
+    font-size: 12px;
+    color: #ffffff40;
+}
+
+.GradientCard-main-value {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.GradientCard-value span {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.PieChart .apexcharts-legend-series span:last-child {
+    font-size: 8px !important;
+}
+
+.rc-slider-handle {
+    display: none;
+}
+
+.rc-slider-track {
+    height: 10px !important;
+}
+
+.rc-slider-rail {
+    background: black !important;
+    height: 6px !important;
+}
+
+.ProgressbarChart-item-title {
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.ProgressbarChart-item-value {
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.ProgressbarChart .ProgressbarChart-item:nth-child(1) .rc-slider-track {
+    background: #FFD573 !important;
+}
+
+.ProgressbarChart .ProgressbarChart-item:nth-child(2) .rc-slider-track {
+    background: #5A66F9 !important;
+}
+
+.ProgressbarChart .ProgressbarChart-item:nth-child(3) .rc-slider-track {
+    background: #3946EE !important;
+}
+
+.ProgressbarChart .ProgressbarChart-item:nth-child(4) .rc-slider-track {
+    background: #72D8DA !important;
+}
+
+.ProgressbarChart .ProgressbarChart-item:nth-child(5) .rc-slider-track {
+    background: #1EA2A6 !important;
+}
+
+.ProgressbarChart .ProgressbarChart-item:nth-child(6) .rc-slider-track {
+    background: #F37272 !important;
+}
+
+.ProgressbarChart .ProgressbarChart-item:nth-child(7) .rc-slider-track {
+    background: #EB5757 !important;
+}
+.ProgressbarChart .ProgressbarChart-item:nth-child(8) .rc-slider-track {
+    background: #6EC2F0 !important;
+}
+.ProgressbarChart .ProgressbarChart-item:nth-child(9) .rc-slider-track {
+    background: #3F93C0 !important;
+}
+.ProgressbarChart .ProgressbarChart-item:nth-child(10) .rc-slider-track {
+    background: #5CC489 !important;
+}
+.ProgressbarChart .ProgressbarChart-item:nth-child(11) .rc-slider-track {
+    background: #269958 !important;
+}
+
+.rc-slider.rc-slider-horizontal {
+    display: flex;
+    align-items: center;
+    width: 95px;
+}
+
+.HodlerSpeedometer-title {
+    font-size: 12px;
+    color: white;
+}
+
+
+.Speedometer-value-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Speedometer-value-subtitle {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.RankingTrendingPage .nav.nav-tabs {
+    border-bottom: none !important;
+}
+
+.RankingTrendingPage .nav.nav-tabs .nav-item button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #808080;
+    padding-left: 0;
+}
+
+.RankingTrendingPage .nav.nav-tabs .nav-item button::before {
+  width: 50%;
+  height: 4px;
+  background: #000;
+  content: "123";
+  color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  position: relative;
+  top: -5px;
+  left: 25%;
+}
+
+.RankingTrendingPage .nav.nav-tabs .nav-item button[aria-selected = true]::before,
+.RankingTrendingPage .nav.nav-tabs .nav-item button:hover::before {
+  width: 50%;
+  height: 4px;
+  background: #2FCCF2;
+  content: "123";
+  color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  position: relative;
+  top: -10px;
+  left: 25%;
+}
+
+.RankingTrendingPage .nav.nav-tabs .nav-item button[aria-selected=true] {
+  font-weight: bold;
+  color: white;
+}
+
+
+
+.CollectionsTable .table thead {
+  background: #0A0A0A;
+  color: white;
+  font-size: 14px;
+}
+
+.CollectionsTable .table tbody tr td .apexcharts-canvas:has( > div) {
+  display: flex;
+    align-items: center;
+    min-height: 65px !important;
+}
+
+
+.table {
+  background: none;
+  font-size: 14px;
+}
+
+.table tr:nth-child(even) {
+  background: #0A0A0A;
+  border-radius: 10px;
+}
+
+.table tr:nth-child(even) td .bottom-cell .badge {
+  background: black !important;
+}
+
+.table th {
+  text-align: center;
+}
+
+.table th div {
+    margin: auto;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+}
+
+.table th div:hover {
+  background: black;
+  border-radius: 5px;
+  
+}
+
+.table th div:hover img:first-child {
+  filter: invert(0);
+}
+
+.table th:nth-child(1) img,
+.table th:nth-child(2) img {
+  display: none;
+}
+
+.table th span {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.table th img {
+  filter: invert(0.5);
+}
+
+.table td {
+  padding-top: 0.1rem !important;
+  padding-bottom: 0.1rem !important;
+}
+
+.table tr td.added-text,
+.table tr td.last-deal-text {
+  font-size: 12px;
+  font-weight: 300;
+  color: #ffffff66 !important;
+}
+
+.table tr {
+  height: 70px !important;
+}
+
+.table .apexcharts-legend {
+  display: none !important;
+}
+
+.table tr td.text-center img.border {
+  border-color: #30CEF3 !important;
+}
+
+
+.table th,
+.table td {
+  border: none;
+  height: 50px;
+  vertical-align: middle;
+  color: white !important;
+}
+
+.table th:nth-child(2) {
+  text-align: left;
+}
+
+.CollectionsTable .TableTDProgressbar {
+  width: 45%;
+  margin: auto;
+}
+
+.MintsTable .TableTDProgressbar {
+  /* width: 60%;
+  margin: auto; */
+  margin-left: 2rem;
+}
+
+.AddedTable .TableTDProgressbar {
+  width: 50%;
+  margin: auto;
+}
+
+
+
+.MintsTable tr td:nth-child(3) div.w-70,
+.MintsTable tr td:nth-child(4) span,
+.MintsTable tr td:nth-child(9) div.d-flex,
+.MintsTable tr td:nth-child(10) div {
+  margin-left: 2rem !important;
+}
+
+.AddedTable tr td:nth-child(4) span:first-child,
+.AddedTable tr td:nth-child(10) span {
+  margin-left: 2rem !important;
+}
+
+.SalesTable tr td:nth-child(3) img {
+  margin-left: 2rem;
+}
+
+.SalesTable tr td:nth-child(4) div {
+  margin-left: 6.5rem;
+}
+
+.SalesTable tr td:nth-child(5) .TableTDProgressbar {
+  margin-left: 3.5rem;
+}
+
+.SalesTable tr td:nth-child(6) div {
+  margin-left: 2rem;
+}
+
+.SalesTable tr td:nth-child(7) .TableTDProgressbar {
+  margin-left: 2rem;
+}
+
+.SalesTable tr td:nth-child(8) .TableTDProgressbar {
+  margin-left: 3rem;
+}
+
+.MarketplaceTable tr td:nth-child(2) .TableTDProgressbar {
+  margin-left: 4.5rem;
+}
+
+.MarketplaceTable tr td:nth-child(3) .TableTDProgressbar {
+  margin-left: 5rem;
+}
+
+.MarketplaceTable tr td:nth-child(4) .TableTDProgressbar {
+  margin-left: 4rem;
+}
+
+.MarketplaceTable tr td:nth-child(5) .TableTDProgressbar {
+  margin-left: 4rem;
+}
+
+.MarketplaceTable tr td:nth-child(6) .TableTDProgressbar {
+  margin-left: 5rem;
+}
+
+.MarketplaceTable tr td:nth-child(7) span {
+  margin-left: 2rem;
+}
+
+.top-minters-table tr td:nth-child(3) .TableTDProgressbar{
+  margin-left: 1.5rem !important;
+}
+
+.TableTDProgressbar .rc-slider-rail {
+  background: #D9D9D920 !important;
+  height: 2px !important;
+}
+
+.TableTDProgressbar .rc-slider-track {
+  background: #11BE78 !important;
+  height: 4px !important;
+  border-radius: 6px;
+}
+
+.table .Avatar-Name {
+  font-weight: 500;  
+}
+
+.RankingTrendingPage .tab-content {
+  max-height: 85vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.tab-content::-webkit-scrollbar {
+  background-color: #000000;
+  border-radius: 100px;
+  width: 0px;
+  padding-left: 5px;
+}
+
+.tab-content::-webkit-scrollbar-button {
+  background-color: #D9D9D920;
+  display: none;
+}
+
+.tab-content::-webkit-scrollbar-thumb {
+  background-color: #D9D9D920;
+  border-radius: 10px;
+  width: 0px;
+}
+
+.table .top-cell,
+.table .bottom-cell {
+  font-size: 14px;
+}
+
+.table .bottom-cell {
+  color:#EE4E7A;
+}
+
+.table .bottom-cell .badge {
+  background: #0A0A0A !important;
+  font-size: 8px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 15px;
+}
+
+.SearchOption {
+  top:15px;
+  height: 30px;
+}
+
+.SearchOption select, 
+.SearchOption .timefilter,
+.SearchOption .network,
+.customize-button {
+  height: 30px;
+  font-size: 12px !important;
+}
+
+.customize-button {
+  background: #333333 !important;
+  border: none !important;
+}
+
+.SearchOption select,
+.SearchOption select:focus, 
+.customize-button {
+  height: 30px;
+  font-size: 12px !important;
+  /* background: #333333 !important;
+  border: none !important; */
+  color: #ffffff40 !important;
+  outline: none;
+  box-shadow: none;  
+}
+
+.MarketplaceTab .SearchOption select,
+.MarketplaceTab .SearchOption select:focus {
+  background: #0a0a0c !important;
+  border: 1px solid #ffffff40 !important;
+  background-repeat: no-repeat !important;
+  background-position-x: 100% !important;
+  background-position-y: 5px !important;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>") !important;  
+}
+
+.SearchOption select,
+.SearchOption select:focus {
+  background: #333333 !important;
+  border: none !important;
+  background-repeat: no-repeat !important;
+  background-position-x: 100% !important;
+  background-position-y: 5px !important;
+  border: transparent !important;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>") !important;  
+}
+
+.SearchOption .timefilter,
+.SearchOption .network {
+  border: 1px solid #333333;
+  align-items: center;
+}
+
+.SearchOption .timefilter button,
+.SearchOption .network button {
+  font-size: 12px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin: 0 0.5rem;
+  border-top-right-radius: 3px !important;
+  border-bottom-right-radius: 3px !important;
+  border-top-left-radius: 3px !important;
+  border-bottom-left-radius: 3px !important;
+  height: 20px;
+  background: none;
+  border-color: transparent;
+  color: #ffffff40;
+  width: 50px;
+}
+
+.SearchOption .timefilter button:active,
+.SearchOption .network button:active,
+.SearchOption .timefilter button.active,
+.SearchOption .network button.active {
+  background: white;
+  border-color: transparent;
+  color: #000000;
+  font-weight: bold;
+}
+
+.SearchOption .timefilter button:hover,
+.SearchOption .network button:hover {
+  background: #333;
+  border-color: transparent;
+  color: #ffffff40;
+  font-weight: bold;
+}
+
+.border-gradient-gray {
+  background: linear-gradient(320deg, rgb(10, 10, 10) 1%, rgba(113, 93, 239, 0.125) 400%) padding-box padding-box, linear-gradient(to right, rgb(255 255 255 / 20%) 0%, transparent 90%) border-box border-box !important;
+}
+
+.DetailGradientCard {
+  background: linear-gradient(141deg, #000000ba 10%, rgb(255 0 0 / 0%) 90%) padding-box padding-box, linear-gradient(123deg, rgb(0 0 0 / 50%) 0%, rgb(0 0 0 / 95%) 55%) border-box border-box;
+  /* min-width: 200px !important; */
+}
+
+.DetailGradientCard .card-name {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.DetailGradientCard .main-value {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+
+.DetailGradientCard .bottom-badge {
+  background: rgb(255 255 255 / 5%) !important;
+  font-size: 8px;
+  font-weight: 400;
+  border-radius: 2px;
+  color: #858585;
+  width: 40px;
+  height: 16px;
+  vertical-align: center;
+}
+
+.DetailGradientCard .percent {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.DetailGradientCard .top-badge {
+  background: rgb(114 93 239 / 10%) !important;
+  font-size: 8px;
+  font-weight: 700;
+  border-radius: 2px;
+  color: #725DEF;
+  width: 40px;
+  height: 16px;
+  vertical-align: center;
+  float: right;
+}
+
+.RankingDetailPage .detail-item-title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.RankingDetailPage .detail-item-description {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.RankingDetailPage .info-badge-group .badge {
+  font-size: 10px;
+  font-weight: 400;
+  background: #333333 !important;
+}
+
+.RankingDetailPage .info-badge-group .badge:hover {
+  font-size: 10px;
+  font-weight: 400;
+  background: #725DEF !important;
+}
+
+.RankingDetailPage .badge-group .badge {
+  background: #E9F5EE !important;
+  color: #006E00;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.RankingDetailPage .view-all {
+ color: #2FCCF2; 
+ font-size: 12px;
+ font-weight: 400;
+ line-height: 14.52px;
+}
+
+.RankingDetailPage .functional-section {
+  font-size: 26px;
+  color: rgb(255 255 255 / 40%);
+}
+
+.RankingDetailPage .functional-section span {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.RankingDetailPage .nav.nav-tabs {
+  border-bottom: none;
+}
+
+.RankingDetailPage .nav.nav-tabs .nav-item button {
+  color: #ffffff80;
+  font-size: 20px ;
+  font-weight: 400;
+  width: 120px;
+  border: none;
+}
+.RankingDetailPage .nav.nav-tabs .nav-item button:hover,
+.RankingDetailPage .nav.nav-tabs .nav-item button:focus-visible{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.RankingDetailPage .nav.nav-tabs .nav-item:focus-visible{
+  border: none;
+  outline: none;
+}
+
+.RankingDetailPage .nav.nav-tabs .nav-item button[aria-selected=true] {
+  background: none;
+  border: none;
+  font-weight: 700;
+  color: white;
+}
+
+
+
+.RankingDetailPage .nav.nav-tabs .nav-item button[aria-selected = true]::after,
+.RankingDetailPage .nav.nav-tabs .nav-item button:hover::after {
+  width: 50%;
+  height: 4px;
+  background: #2FCCF2;
+  content: "123";
+  color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  position: relative;
+  top: 5px;
+  left: 25%;
+}
+
+.RankingDetailPage .MintsTabContent .info-content .info-content-title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff80;
+  display: flex;
+  align-items: center;
+}
+
+.RankingDetailPage .MintsTabContent .info-content .info-content-title .InfoIcon {
+  filter: invert(0.5);
+}
+
+.RankingDetailPage .MintsTabContent .info-content .info-content-value {
+  font-size: 18px;
+}
+
+.RankingDetailPage .MintsTabContent .info-content .info-content-value span {
+  font-size: 10px;
+  font-weight: 300;
+  color: #858585;
+}
+
+.RankingDetailPage .MintsTabContent .info-content .info-content-value .badge {
+  background: #333333 !important;
+  border-radius: 10px;
+}
+
+.RankingDetailPage .MintsTabContent .table tr {
+  height: 57px !important;
+  border: none;
+}  
+
+.RankingDetailPage .MintsTabContent .table tr th {
+  text-align: left;
+}
+
+
+
+.table tr:nth-child(even) td,
+.table tr th {
+  background: #0A0A0A;
+}
+
+.table tr:nth-child(even) td:first-child,
+.table tr th:first-child {
+  background: #0A0A0A;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.table tr:nth-child(even) td:last-child,
+.table tr th:last-child  {
+  background: #0A0A0A;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.mint-activities-table tbody tr td:nth-child(1) {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.mint-activities-table tbody tr td:nth-child(2) {
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+}
+
+.mint-activities-table tbody tr td:nth-child(3) div:first-child {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.mint-activities-table tbody tr td:nth-child(3) div:last-child {
+  font-size: 10px;
+  font-weight: 300;
+  color: #ffffff80;
+}
+
+.mint-activities-table tbody tr td:nth-child(4) {
+  font-size: 12px;
+  font-weight: 300;
+  color: #ffffff80 !important;
+}
+
+.table-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff80;
+}
+
+.top-minters-table tr td:last-child {
+  font-size: 12px;
+  font-weight: 300;
+  color: #ffffff80 !important;
+}
+
+.RankingDetailPage {
+  height: 90vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.RankingDetailPage::-webkit-scrollbar {
+  background-color: #000000;
+  border-radius: 100px;
+  width:0px;
+  padding-left: 5px;
+}
+
+.RankingDetailPage::-webkit-scrollbar-button {
+  background-color: #D9D9D920;
+  display: none;
+}
+
+.RankingDetailPage::-webkit-scrollbar-thumb {
+  background-color: #D9D9D920;
+  border-radius: 10px;
+  width: 10px;
+}
+
+.chart-card-header .chart-card-header-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.chart-info-option .chart-info-option-item .chart-info-option-item-title  {
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff80;
+}
+
+.chart-info-option .chart-info-option-item .chart-info-option-item-value {
+  font-size: 18px;
+}
+
+.chart-info-option .chart-info-option-item:first-child span {
+  color: #D790F0;
+  font-size: 20px;
+}
+
+.chart-info-option .chart-info-option-item:last-child span {
+  color: #2FCCF2;
+  font-size: 20px;
+}
+
+.Chart-value-info .Chart-value-info-item .Chart-value-info-item-title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff80;
+}
+
+.Chart-value-info .Chart-value-info-item .Chart-value-info-item-value {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+.Chart-value-info .Chart-value-info-item {
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.Chart-value-info .Chart-value-info-item:hover,
+.Chart-value-info .Chart-value-info-item:active {
+  border-color: #333333;
+}
+
+.chart-logo {
+  top: 34%;
+  left: 39%;
+  background: #0c0b0d;
+}
+
+.Overview-info-item .Overview-info-item-title  {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.Overview-info-item .Overview-info-item-value {
+  font-size: 16px;
+  font-weight: 700;
+  color:white;
+}
+
+.Overview-info-item .Overview-info-item-value span {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+
+.chart-info-option-item-value span {
+  font-size: 10px !important;
+  font-weight: 700;
+}
+
+.overview-card-button {
+  background : none !important;
+  border: 1px solid white !important;
+  border-radius: 5px;
+}
+
+
+.OverviewTabContent .accordion .accordion-item {
+  background: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid white;
+}
+
+
+.OverviewTabContent .accordion .accordion-item button {
+  background: none;
+  color: white;
+}
+
+.DashboardPage .chart-info-option .chart-info-option-item .chart-info-option-item-title,
+.DashboardPage .chart-info-option .chart-info-option-item .chart-info-option-item-value {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+.DashboardPage .rc-slider.rc-slider-horizontal {
+  width: 100%;
+}
+
+.DashboardPage .chart-card-header .SearchOption button {
+  width: 40px;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.DashboardPage .chart-info-option-detail {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.DashboardPage .chart-info-option-detail .chart-info-option-item-title:nth-child(1) span {
+  color: #22C77A;
+}
+
+.DashboardPage .chart-info-option-detail .chart-info-option-item-title:nth-child(2) span {
+  color: #5426BE;
+}
+
+.DashboardPage .chart-info-option-detail .chart-info-option-item-title:nth-child(3) span {
+  color: #E564B8;
+}
+
+.HodlerSpeedometer .card {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-color: #ff000000;
+    background-position: top;
+    border: none;
+    background-size: 100%;
+}
+
+.mints-process {
+  color: #2FCCF2;
+  font-size: 8px;
+  font-weight: 300;
+}
+
+.MarketplaceTab .card .card-body button {
+  width : 70px !important
+}
+
+.MarketplaceTab .chart-legend-title {
+  font-size: 12px;
+  font-weight: 300;
+  color: #ffffff66;
+}
+
+
+.MarketplaceTab .chart-legend-title span {
+  width: 75px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.MarketplaceTab select {
+  background: #0b0b0d !important;
+  border: 1px solid #ffffff40 !important;
+  padding-right: 1.5rem;
+}
+
+.MarketplaceTab .card .card-body .switch-control, 
+.MarketplaceTable .switch-control {
+  border-radius: 50px !important;
+}
+
+.MarketplaceTab .card .card-body .switch-control button,
+.MarketplaceTable .switch-control button {
+  width: 18px !important;
+  height: 18px !important;
+  border-radius: 50px !important;
+  padding: 0 !important;
+}
+
+.MarketplaceTab .chart-card-meta-tag {
+  font-size: 12px;
+}
+
+
+.MarketplaceTab .chart-card-meta-tag div:nth-child(1) .list-icon {
+  color: #FBAD37;
+
+}
+
+.Marketplaceab .chart-card-meta-tag div:nth-child(2) .list-icon {
+  color: #3F93C0;
+
+}
+
+.MarketplaceTab .chart-card-meta-tag div:nth-child(3) .list-icon {
+  color: #BB6BD9;
+
+}
+
+.RankingDetailPage .minter-filter {
+  height: 27px;
+  border: 1px solid #ffffff80;
+  padding: 0.25rem;
+}
+
+.RankingDetailPage .minter-filter button.active {
+  background: white;
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+  color: black;
+  font-weight: 700;
+}
+
+.RankingDetailPage .minter-filter button {
+  background: none;
+  border: none;
+  font-size: 12px;
+  padding: 0 0.5rem;
+  margin: 0 0.25rem;
+  color: #ffffff80;
+  font-weight: 300;
+}
+
+.RankingDetailPage .react-multiple-carousel__arrow {
+  display: none;
+}
+
+.MarketplaceTab .card .chart-opacity-logo {
+  right: 5%;
+  bottom: 15%;
+  filter: opacity(0.3);
+}
+
+.MarketplaceTab .MarketplaceTable tr th:nth-child(2) img {
+  display: block;
+}
+
+.MarketplaceTab .MarketplaceTable tr th:nth-child(1) div {
+  justify-content: flex-start !important;
+}
+
+.RankingDetailPage .accordion .accordion-item button {
+  background: black !important;
+}
+
+.RankingDetailPage .accordion .accordion-item button:focus {
+  box-shadow: none;
+}
+
+.RankingDetailPage .accordion .accordion-item .accordion-button::after {
+  display: none;
+}
+
+.RankingDetailPage .accordion .accordion-body {
+  background: black;
+  border-top: 1px solid white;
+}
+
+.RankingDetailPage .interestCard {
+  background: #0a0a0a;
+  color: white;
+}
+
+.RankingDetailPage .card .interestcard-title {
+  font-size: 12px;
+  font-weight: 300;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.RankingDetailPage .card .interestcard-network {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.MintsTable tr td:nth-child(4)  {
+  text-decoration: underline;
+}
+.CollectionsTable tr th:nth-child(2) div,
+.MintsTab .MintsTable tr th:nth-child(2) div,
+.AddedTab .AddedTable tr th:nth-child(2) div,
+.SalesTab .SalesTable tr th:nth-child(2) div {
+  justify-content: flex-start !important;
+}
+
+.RankingDetailPage .chart-info-option-logo {
+  bottom: 0;
+  right: 0;
+  opacity: 0.4;
+}
+
+.card .in-depth-analytics {
+  font-size: 14px;
+  font-weight: 300;
+  color: #2FCCF2;
+}
+
+.interested-card-section {
+  width: 81.5vw;
+}
+
+.table-pagination-section .rc-pagination-item-active a {
+  background: #30CEF3 !important;
+  color: white !important;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.table-pagination-section .rc-pagination-item,
+.table-pagination-section .rc-pagination-item a {
+  background: none;
+  border-color: transparent;
+  border-radius: 5px;
+  color: white;
+}
+
+.table-pagination-section .rc-pagination-prev button,
+.table-pagination-section .rc-pagination-next button {
+  background: none;
+  border-color: transparent;
+  color: #30CEF3 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-pagination-section .rc-pagination-total-text {
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+  margin-right: 2rem;
+}
+
+.RankingDetailPage .MintsTabContent table tr th:nth-child(1) div {
+  justify-content: flex-start !important;
+}
+
+.svg_select_points {
+  /* height: 70% !important; */
+}
